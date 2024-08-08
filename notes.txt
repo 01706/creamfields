@@ -1,0 +1,11 @@
+https://appmiral.stoplight.io/docs/api-v6-spec/
+
+event_identifier: creamfields
+edition_identifier: creamfields2024
+x-protect: 320eaa4db66823c8ce4de7a7f823a451
+
+curl --request GET \
+  --url https://app.appmiral.com/api/v6/events/creamfields/editions/creamfields2024/stages \
+  --header 'Accept: application/json' \
+  --header 'Accept-Language: ' \
+  --header 'x-protect: 320eaa4db66823c8ce4de7a7f823a451'
