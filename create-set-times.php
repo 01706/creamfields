@@ -110,7 +110,7 @@ foreach ($days as $day) {
 
     fputcsv($file_pointer, [$day['name']]);
 
-    for($timeIndex = 0; $timeIndex < 29; $timeIndex++) {
+    for($timeIndex = 0; $timeIndex < 33; $timeIndex++) {
         if ($timeIndex == 0) {
             // Header
             fputcsv($file_pointer, csvHeader($stagesOnDay));
@@ -135,7 +135,7 @@ foreach ($days as $day) {
 
 function createTimesArray() {
     $times = [];
-    $hour = 14;
+    $hour = 12;
     $minutes = 0;
     while (true) {
         $times[] = str_pad($hour, 2, 0, STR_PAD_LEFT) . ':'. str_pad($minutes, 2, 0, STR_PAD_LEFT) ;
