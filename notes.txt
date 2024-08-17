@@ -1,4 +1,8 @@
+https://creamfields2024.deeplink.appmiral.com/
+
 https://appmiral.stoplight.io/docs/api-v6-spec/
+https://app.appmiral.com/developer
+https://help.appmiral.com/manage-your-dynamic-map
 
 event_identifier: creamfields
 edition_identifier: creamfields2024
