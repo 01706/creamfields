@@ -102,9 +102,11 @@ function createFeature($category, $poi): array {
     return [
         'type' => 'Feature',
         'properties' => [
-            'title' => $poi->name,
-            'description' => $category->name,
-            'fill' => $category->color,
+            'name' => $poi->name,
+            'category' => $category->name,
+            '_umap_options' => [
+                'fillColor' => $category->color,
+            ]
         ],
         'geometry' => $geometry
     ];
